@@ -1,0 +1,21 @@
+# Ignore Poetry virtual environments
+.poetry/
+
+# Ignore Poetry lock file (optional, if you don't want to track it)
+poetry.lock
+
+# Poetry-specific config files
+.pypoetry/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Virtual environment (if you have one separately from Poetry)
+venv/
+
+# OS-specific files
+.DS_Store
